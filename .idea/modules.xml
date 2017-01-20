@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Lazyrecords.iml" filepath="$PROJECT_DIR$/Lazyrecords.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1987492073/lazyparsec.iml" filepath="$PROJECT_DIR$/.idea/modules/-1987492073/lazyparsec.iml" group="lazyparsec" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1987492073/lazyparsec_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1987492073/lazyparsec_main.iml" group="lazyparsec" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1987492073/lazyparsec_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1987492073/lazyparsec_test.iml" group="lazyparsec" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lazyrecords.iml" filepath="$PROJECT_DIR$/.idea/modules/lazyrecords.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lazyrecords_main.iml" filepath="$PROJECT_DIR$/.idea/modules/lazyrecords_main.iml" group="lazyrecords" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lazyrecords_test.iml" filepath="$PROJECT_DIR$/.idea/modules/lazyrecords_test.iml" group="lazyrecords" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1281466734/totallylazy.iml" filepath="$PROJECT_DIR$/.idea/modules/-1281466734/totallylazy.iml" group="totallylazy" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1281466734/totallylazy_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1281466734/totallylazy_main.iml" group="totallylazy" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1281466734/totallylazy_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1281466734/totallylazy_test.iml" group="totallylazy" />
     </modules>
   </component>
 </project>
-

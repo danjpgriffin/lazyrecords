@@ -1,0 +1,49 @@
+buildDir='build/artifacts'
+
+apply plugin: 'java'
+
+repositories {
+	mavenCentral()
+	maven { url "http://repo.bodar.com" }
+}
+
+configurations.all {
+    transitive = false
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src']
+            include "**/*.java"
+        }
+
+        resources {
+            srcDirs = ['src']
+
+            exclude "*.java"
+        }
+
+        output.resourcesDir = "$buildDir/classes/main"
+    }
+    test {
+        java {
+            srcDirs = ['test']
+        }
+
+        resources {
+            srcDirs = ['test']
+            exclude "*.java"
+        }
+
+        output.resourcesDir = "$buildDir/classes/test"
+    }
+}
+
+dependencies {
+    compile 'org.hamcrest:hamcrest-core:1.2'
+    compile 'org.hamcrest:hamcrest-library:1.2'
+    compile project(":totallylazy")
+
+    testCompile 'junit:junit:4.8.2'
+}

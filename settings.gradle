@@ -1,0 +1,2 @@
+include ":totallylazy"
+project(":totallylazy").projectDir = new File(settingsDir, "../totallylazy")
